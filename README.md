@@ -23,6 +23,8 @@ docker built -t=sftom/latex:latest
 
 ## Usage
 
+Use this docker image with LaTeX Workshop extension in Visual Studio Code.
+
 ```bash
 docker run -rm -it --name latex sftom/latex:latest /bin/bash
 ```
