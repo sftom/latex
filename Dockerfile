@@ -1,5 +1,5 @@
 FROM debian:stretch-slim
-MAINTAINER Sergio Mendonca <sftdom@gmail.com>
+LABEL author "Sergio Mendonca <sftdom@gmail.com>"
 
 RUN apt-get update && apt-get install -y \
 		biber \
